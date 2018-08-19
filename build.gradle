@@ -39,12 +39,12 @@ dependencies {
     compile group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
 
     // aspect
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aspect'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop'
 
     // util
     compile group: 'org.springframework.security', name: 'spring-security-core'
     compile group: 'org.springframework.security', name: 'spring-security-web'
-    provided group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
 
     // test
     testCompile(group: 'junit', name: 'junit', version: '4.12'){
